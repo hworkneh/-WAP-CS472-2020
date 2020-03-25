@@ -13,6 +13,11 @@
                     background-color: honeydew;
                 }
                 
+                #about ul {
+                    font-size: 2em;
+                    text-align: center;
+                }
+                
                 section h2 {
                     font-size: 2em;
                     color: indianred;
