@@ -1,0 +1,29 @@
+                body,
+                html {
+                    margin: 0;
+                    margin-top: 10px;
+                    background-color: green;
+                    font-family: 'Trebuchet MS';
+                    padding: 2px 20px 2px;
+                }
+                
+                #about h2 {
+                    font-size: 4em;
+                    text-align: center;
+                    background-color: honeydew;
+                }
+                
+                #about ul {
+                    font-size: 2em;
+                    text-align: center;
+                }
+                
+                section h2 {
+                    font-size: 2em;
+                    color: indianred;
+                }
+                
+                footer {
+                    text-align: center;
+                    padding: 50px;
+                }
