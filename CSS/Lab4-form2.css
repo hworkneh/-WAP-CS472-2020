@@ -1,7 +1,6 @@
 /* filename: Lab4-form2.css */
 
-
-/* author: Hanna Workneh */
+/* author: Hanna Nebyu Workneh */
 
 .nav-item {
     border-left: 1px solid white;
@@ -18,11 +17,9 @@
     padding-right: 1em;
     font-size: 1.2em;
 }
-
 .row {
     margin-top: 7%;
 }
-
 .col button {
     margin-left: 12px!important;
     margin-right: 12px!important;
