@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/background.png");
+    background-image: url("../images/background.png");
     font-size: 8pt;
     font-family: Verdana, Tahoma, sans-serif;
     margin: auto;
@@ -20,7 +20,7 @@ dd ul {
 }
 
 #imagebanner {
-    background-image: url("images/bannerbg.png");
+    background-image: url("../images/bannerbg.png");
     background-repeat: repeat-x;
 }
 
