@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Web Form with regex">
+    <meta name="author" content="Hanna Workneh">
+    <meta name="keywords" content="HTML, Bootstrap, WAP">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/w3c-html.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Web Form 1</title>
+    <link rel="stylesheet" href="css/form1.css" type="text/css">
+</head>
+<header>
+</header>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1"><strong>Email address</strong></label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" title="Enter Valid Email" placeholder="Enter email" autofocus autocomplete>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1"><strong>Password</strong></label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])[\w,\W]{10,}" title="Password field is at least 10 characters in length and contain at least one number and one uppercase and lowercase letter"
+                            required pattern="">
+                    </div>
+                    <div class="form-group">
+                        <label for="url"><strong>URL</strong></label>
+                        <input type="url" class="form-control" id="url" pattern="^(http://|https://).{1,}(\.){1,1}.{1,}" autocomplete="url" title="url should start with http:// or https:// followed by address that has one dot(.) in between string ">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                        <label class="form-check-label" for="exampleCheck1"><strong>Check me out</strong></label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
