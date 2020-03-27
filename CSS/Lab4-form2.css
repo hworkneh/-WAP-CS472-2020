@@ -1,0 +1,30 @@
+/* filename: Lab4-form2.css */
+
+
+/* author: Hanna Workneh */
+
+.nav-item {
+    border-left: 1px solid white;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.navbar-brand {
+    padding-right: 2em;
+}
+
+.mylable {
+    color: white;
+    padding-right: 1em;
+    font-size: 1.2em;
+}
+
+.row {
+    margin-top: 7%;
+}
+
+.col button {
+    margin-left: 12px!important;
+    margin-right: 12px!important;
+    float: right;
+}
