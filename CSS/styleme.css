@@ -1,8 +1,7 @@
-                body,
+ body,
                 html {
-                    margin: 10px;
-                    border: 1px solid red;
-                    /* margin-top: 10px;*/
+                    margin: 0;
+                    margin-top: 10px;
                     background-color: green;
                     font-family: 'Trebuchet MS';
                     padding: 2px 20px 2px;
@@ -22,10 +21,6 @@
                 section h2 {
                     font-size: 2em;
                     color: indianred;
-                }
-                
-                #mood.section-inner div img {
-                    display: inline;
                 }
                 
                 footer {
