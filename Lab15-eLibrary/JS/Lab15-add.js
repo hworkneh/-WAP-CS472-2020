@@ -14,7 +14,7 @@ BookForm.addEventListener("submit", function(e) {
     const publisher = newPublisher.value;
     const datePublished = newDatePublished.value;
 
-    const BookData = {
+    const Data = {
         "isbn": isbn,
         "title": title,
         "overdueFee": overdueFee,
@@ -23,7 +23,7 @@ BookForm.addEventListener("submit", function(e) {
     };
     fetch("https://elibraryrestapi.herokuapp.com/elibrary/api/book/add", {
         method: "post",
-        body: JSON.stringify(BookData),
+        body: JSON.stringify(Data),
         headers: {
             "Content-Type": "application/json"
         }
