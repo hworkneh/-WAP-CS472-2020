@@ -1,31 +1,6 @@
 /* filename: styles.css */
 
 
-/* author: Hanna Workneh */
-
-
-/*#bookList {
-    margin-top: 1.5%;
-    display: none;
-}
-
-#addbook {
-    float: right;
-}
-
-.mylable {
-    color: white;
-    padding-right: 1em;
-    font-size: 1.2em;
-}
-
-
-.col button {
-    margin-left: 12px!important;
-    margin-right: 12px!important;
-    float: right;
-}*/
-
 footer {
     position: fixed;
     bottom: 0;
@@ -40,6 +15,5 @@ html {
 }
 
 body {
-    /* Margin bottom by footer height */
     margin-bottom: 100px;
 }
